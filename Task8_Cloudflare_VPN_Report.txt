@@ -1,0 +1,43 @@
+VPN Usage and Privacy Report
+
+Internship Task: 8 – Understand and Use a VPN for Privacy and Secure Communication
+Intern Name: Ved Vyas
+Date: 15/08/2025
+
+1. Introduction
+The objective of this task was to set up and use a Virtual Private Network (VPN) to understand its role in protecting online privacy and securing communication. This included installing a VPN client, connecting to a secure server, verifying changes in IP address, and exploring encryption and privacy features.
+
+2. VPN Setup Steps
+
+1. Selected VPN Provider: Cloudflare VPN (WARP)
+2. Signed Up: Created a free account through the Cloudflare WARP app.
+3. Downloaded and Installed Client: Installed the official "1.1.1.1 with WARP" application for my operating system.
+4. Connected to Server: Enabled WARP mode to encrypt traffic and route through Cloudflare’s secure network.
+5. Verified IP Change: Used whatismyipaddress.com to confirm the IP location had changed from my original.
+6. Tested Encrypted Connection: Accessed several websites and confirmed the traffic was routed through Cloudflare’s servers.
+7. Disconnected and Compared: Measured browsing speed and IP address before and after using Cloudflare VPN.
+
+3. Observations
+
+Test Stage            | IP Location       | Speed       | Encryption Active  | Notes
+----------------------------------------------------------------------------------------------------------------
+Before VPN            | Vadodara/ India   | [129 Mbps]  | No                 | Original ISP IP
+Connected to VPN      | Dhaka/Bangladesh  | [70 Mbps]   | Yes                | Encrypted tunnel via Cloudflare
+After Disconnecting   | Vadodara/ India   | [129 Mbps]  | No                 | Returned to original IP
+
+4. VPN Benefits Identified
+- Hides real IP address and location.
+- Encrypts internet traffic to prevent interception.
+- Protects privacy on public Wi-Fi networks.
+- Routes traffic through Cloudflare’s global network for low latency.
+
+5. VPN Limitations Noted
+- May reduce browsing speed depending on server load.
+- Does not provide full anonymity (Cloudflare still processes traffic).
+- Free plan lacks advanced server location choices.
+
+6. Understanding VPN Encryption
+Cloudflare VPN uses modern encryption protocols such as Wire Guard to ensure secure, low-latency connections. This keeps data between my device and Cloudflare’s servers unreadable to third parties, including ISPs and public Wi-Fi attackers.
+
+7. Conclusion
+This task showed that Cloudflare VPN (WARP) is a fast and reliable privacy tool. While it doesn’t offer complete anonymity, it significantly improves security on public networks and prevents most forms of traffic interception.

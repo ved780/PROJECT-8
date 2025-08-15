@@ -1,0 +1,36 @@
+Cybersecurity Internship – Task 8
+Interview Questions & Answers
+
+What is a VPN?
+A Virtual Private Network (VPN) is a secure service that encrypts your internet connection and routes it through a remote server, hiding your real IP address and helping protect your privacy online.
+
+How does a VPN protect privacy?
+It masks your IP address and encrypts data between your device and the VPN server, preventing ISPs, public Wi-Fi snoopers, or hackers from seeing your online activity.
+
+Difference between VPN and proxy?
+
+VPN: Encrypts all internet traffic from your device and changes your IP.
+
+Proxy: Only routes specific app or browser traffic without encryption.
+
+What is encryption in VPN?
+Encryption converts readable data into an unreadable format using algorithms and keys, ensuring only authorized parties can read the information being transmitted.
+
+Can VPN guarantee complete anonymity?
+No. A VPN hides your IP and encrypts traffic, but your activity can still be tracked by the VPN provider, websites, or if you log into personal accounts.
+
+What protocols do VPNs use?
+Common VPN protocols include WireGuard, OpenVPN, IKEv2/IPSec, and L2TP/IPSec. These define how data is encrypted and transmitted.
+
+What are some VPN limitations?
+
+Possible speed reduction due to encryption overhead.
+
+Limited features or locations on free plans.
+
+Trust is required in the VPN provider’s logging policy.
+
+Cannot protect against all forms of tracking (e.g., cookies, fingerprinting).
+
+How does a VPN affect network speed?
+Encryption and rerouting through a VPN server can cause a small to moderate speed drop, depending on server distance, network congestion, and the VPN’s infrastructure.
